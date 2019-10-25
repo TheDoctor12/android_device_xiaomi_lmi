@@ -394,6 +394,10 @@ TARGET_COMMON_QTI_COMPONENTS := \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.flash.recovery=1
 
+# RCS
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.rcs.supported=1
+
 # RmNet Data
 PRODUCT_VENDOR_PROPERTIES += \
     persist.rmnet.data.enable=true \
