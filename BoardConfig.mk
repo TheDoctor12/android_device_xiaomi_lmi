@@ -22,7 +22,7 @@ SOONG_CONFIG_XIAOMI_KONA_FOD_SIZE = 202
 
 # Kernel
 include device/xiaomi/lmi-kernel/BoardConfigKernel.mk
-TARGET_KERNEL_CONFIG := vendor/lmi_defconfig
+TARGET_KERNEL_CONFIG := vendor/lmi-perf_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_lmi
