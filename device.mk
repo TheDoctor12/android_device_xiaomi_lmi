@@ -29,16 +29,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceParts
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/parts/popup_bababooey.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_bababooey.ogg \
-    $(LOCAL_PATH)/parts/popup_bruh.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_bruh.ogg \
-    $(LOCAL_PATH)/parts/popup_dababy.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_dababy.ogg \
-    $(LOCAL_PATH)/parts/popup_skibidibopmmdada.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_skibidibopmmdada.ogg \
-    $(LOCAL_PATH)/parts/popup_snapbacktoreality.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_snapbacktoreality.ogg \
-    $(LOCAL_PATH)/parts/popup_tacobell.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_tacobell.ogg \
-    $(LOCAL_PATH)/parts/popup_unknownlanguage.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_unknownlanguage.ogg \
-    $(LOCAL_PATH)/parts/popup_xuehuapiaopiao.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_xuehuapiaopiao.ogg
-
 # Display calibration data
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/display/qdcm_calib_data_xiaomi_j11_38_08_0a_fhd_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_j11_38_08_0a_fhd_panel.xml
