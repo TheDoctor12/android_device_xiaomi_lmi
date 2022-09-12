@@ -516,6 +516,11 @@ PRODUCT_VENDOR_PROPERTIES += \
 # USB
 PRODUCT_HAS_GADGET_HAL := true
 
+ifneq ($(TARGET_BUILD_VARIANT),user)
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.usb.config=mtp,adb
+endif
+
 # Vendor
 $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
 
