@@ -225,6 +225,7 @@ PRODUCT_PACKAGES += \
     AOSPALmiSystemUI \
     LmiCarrierConfig \
     LmiFrameworks \
+    LmiNfc \
     LmiSystemUI \
     FrameworksResTarget \
     WifiResTarget
