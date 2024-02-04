@@ -475,8 +475,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.incremental.enable=yes
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
