@@ -225,10 +225,7 @@ PRODUCT_PACKAGES += \
     LmiFrameworks \
     LmiNfc \
     LmiSettings \
-    LmiSystemUI \
-    FrameworksResTarget \
-    WifiResTarget \
-    WifiMainline
+    LmiSystemUI
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
