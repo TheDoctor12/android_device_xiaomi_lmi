@@ -13,6 +13,7 @@
 # limitations under the License.
 
 DEVICE_PATH := device/xiaomi/lmi
+HARDWARE_PATH := hardware/xiaomi
 
 # Architecture
 TARGET_ARCH := arm64
@@ -73,7 +74,8 @@ TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    $(DEVICE_PATH)/configs/vintf/xiaomi_vendor_framework_compatibility_matrix.xml
+    $(DEVICE_PATH)/configs/vintf/xiaomi_vendor_framework_compatibility_matrix.xml \
+    $(HARDWARE_PATH)/vintf/xiaomi_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/configs/vintf/manifest.xml \
