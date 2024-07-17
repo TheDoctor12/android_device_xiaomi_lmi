@@ -474,6 +474,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.sys.thermal.data.path=/data/vendor/thermal/
 
+# USB
+PRODUCT_HAS_GADGET_HAL := true
+
 # Vendor
 $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
 
