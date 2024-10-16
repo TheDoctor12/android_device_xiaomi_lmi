@@ -147,6 +147,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true
 
 PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4.vendor \
     android.hardware.drm@1.4-service.clearkey
 
 # Fastboot
@@ -243,6 +244,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/overlay/config-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/overlay/config/config.xml
 
+# Neural networks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3.vendor
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
@@ -328,10 +333,6 @@ PRODUCT_COPY_FILES += \
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
-
-PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4.vendor \
-    android.hardware.neuralnetworks@1.3.vendor
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
