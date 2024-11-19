@@ -110,7 +110,6 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.latency@2.1',
     ): lib_fixup_vendor_suffix,
     (
-        'libgrallocutils',
         'libwpa_client',
     ): lib_fixup_remove,
 }
