@@ -25,6 +25,8 @@
         <item>"/system/lib64/libui.so"</item>
         <item>"/system/lib64/libvulkan.so"</item>
         <item>"/system_ext/priv-app/ParanoidSystemUI/oat/arm64/ParanoidSystemUI.odex"</item>
+        <item>"/vendor/bin/hw/vendor.qti.hardware.display.allocator-service"</item>
+        <item>"/vendor/bin/hw/vendor.qti.hardware.display.composer-service"</item>
         <item>"/vendor/lib64/egl/eglSubDriverAndroid.so"</item>
         <item>"/vendor/lib64/egl/libGLESv1_CM_adreno.so"</item>
         <item>"/vendor/lib64/hw/vulkan.adreno.so"</item>
