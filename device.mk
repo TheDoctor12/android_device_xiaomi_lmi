@@ -246,6 +246,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    bootable/deprecated-ota \
     hardware/xiaomi
 
 # Overlays
