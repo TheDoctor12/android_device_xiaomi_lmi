@@ -171,3 +171,9 @@ service dcvs-sh /vendor/bin/init.qti.dcvs.sh
 
 on property:vendor.dcvs.prop=1
    start dcvs-sh
+
+service iop-hal-2-0 /vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
+    override
+    class hal
+    user root
+    group root readproc
