@@ -225,6 +225,9 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.xiaomi.rc
 
+# Kernel
+PRODUCT_ENABLE_UFFD_GC := true
+
 # Keymaster
 PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.allow_encrypt_override=true \
