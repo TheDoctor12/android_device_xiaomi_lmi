@@ -1,6 +1,13 @@
 [
   {
-    "repository": "android_device_xiaomi_sm8250-common",
+    "remote": "github",
+    "repository": "TheDoctor12/android_device_xiaomi_sm8250-common",
     "target_path": "device/xiaomi/sm8250-common"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_xiaomi_lmi",
+    "target_path": "vendor/xiaomi/lmi",
+    "groups": "muppets,muppets_lmi",
+    "clone-depth": "1"
   }
 ]
