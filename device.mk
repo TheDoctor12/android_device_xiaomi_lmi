@@ -32,6 +32,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
 
 # Audio
+PRODUCT_PACKAGES += \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing
+
 PRODUCT_VENDOR_PROPERTIES += \
     persist.audio.button_jack.profile=volume \
     persist.audio.button_jack.switch=0 \
