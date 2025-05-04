@@ -250,6 +250,10 @@ PRODUCT_SOONG_NAMESPACES += \
     bootable/deprecated-ota \
     hardware/xiaomi
 
+# NFC
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/nfc/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPALmiFrameworks \
