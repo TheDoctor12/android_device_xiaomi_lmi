@@ -100,7 +100,7 @@ vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|bec8ff6fd080c92828a5fa56ef1ed
 vendor/etc/acdbdata/adsp_avs_config.acdb|bd5453d6fd844ccc4a5160a4cbd7871dcd1aa655
 
 # Audio - MIUI
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.lmi.so;FIX_SONAME|fb4f9fad60a3ffd040b3711c809e974ffebe384b
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.lmi.so;FIX_SONAME|81aa3604ded640479feb5d0365904bf8dcbdbe32
 vendor/lib/hw/sound_trigger.primary.kona.so|a92730e808e5cca4ed289aaff8d2adf0cc2e7906
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|ee89b7cb4e0476688ac8c1a669dfe89c660b1a76
 vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_lmi.so;FIX_SONAME|348735e899577308a9f0430611a068143d1efc0b
@@ -115,7 +115,7 @@ vendor/lib/libaudio_log_utils.so|da677ff82cbec353a2851a7556a2fa37992d6e2c
 vendor/lib/libaudioalsa.so|486cde43c2d135e0cceb862126b56ef0647d3a71
 vendor/lib/libaudioconfigstore.so|1b53f032ae43dd335ada7755642cb62864890165
 vendor/lib/libaudioparsers.so|7569d3f969fe586145970f30c90d395074f577e4
-vendor/lib/libaudioroute_ext.so|9c64c2384952947590b848ace49bfad185d60a61
+vendor/lib/libaudioroute_ext.so|8dd1d9457c70718aad57f2374c538207b67e75eb
 vendor/lib/libcapiv2svacnn.so|c897fbba664fcb0ea1951d3220d8db54ae0d7995
 vendor/lib/libcapiv2svarnn.so|97f6bd6b25479fbf0f4f7cb06d9f1a462266f22a
 vendor/lib/libcapiv2vop.so|1cceaefcc1ca55de5bc932a846091e6702c5d508
