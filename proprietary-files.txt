@@ -770,8 +770,8 @@ vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor 
 
 # NFC - MIUI
-vendor/etc/libnfc-nxp_RF.conf|dc9d9e7cb16ba04da58e96f40f187fa79ef53756
-vendor/lib/libsn100u_fw.so|127d8580e89f9b6170abf7625c6e0d5433227aff
+vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf|dc9d9e7cb16ba04da58e96f40f187fa79ef53756
+vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so|127d8580e89f9b6170abf7625c6e0d5433227aff
 
 # NPU
 vendor/bin/npu_launcher 
