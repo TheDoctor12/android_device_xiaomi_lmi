@@ -113,6 +113,10 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.btstack.enable.twsplus=true \
     persist.vendor.btstack.enable.twsplussho=true
 
+# BPF
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.bpf.kver_override=5.10.239
+
 # Camera
 PRODUCT_VENDOR_PROPERTIES += \
     camera.disable_zsl_mode=true
