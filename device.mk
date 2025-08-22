@@ -361,7 +361,9 @@ PRODUCT_PACKAGES += \
     LmiFrameworks \
     LmiNfc \
     LmiSettings \
-    LmiSystemUI
+    LmiSystemUI \
+    WifiMainline \
+    WifiResTarget
 
 # Protobuf
 PRODUCT_PACKAGES += \
