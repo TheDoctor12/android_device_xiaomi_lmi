@@ -346,6 +346,7 @@ vendor/lib64/libvideoBokeh.so|a622403c85c32c6500c1fc625fb23cae5b4af490
 vendor/lib64/libvideofilter_only.so|a79f90fd9b3105744790412b72f314f804707fbe
 vendor/lib64/libvidhance.so|769fe96e1e282e22abb658190755fa1acbacf2ec
 vendor/lib64/libxmi_high_dynamic_range.so|82543a63cc4b8770ea335549ec532ab229d909ce
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|8629ddc55445116852140a88c6d272683ac6bd49
 
 # Camera (arcsoft) - MIUI
 vendor/lib64/libarcsoft_beautyshot.so|1faae34b96337876f94503a1048f4ce408219dec
@@ -514,9 +515,6 @@ media/audio/ui/popup_muqin_down.ogg|3ecf82ae3d4ec853e0832901d2163c252ad62e07
 media/audio/ui/popup_muqin_up.ogg|047ae904c2932bc6112cd7ef4458f4cad1972181
 media/audio/ui/popup_yingyan_down.ogg|de1623b20f311322dc79a3d152ca30318e1ed0db
 media/audio/ui/popup_yingyan_up.ogg|0c3a716ba49dd682a6d58cca04eece0f81ca6834
-
-# Camera (postproc) - from LA.UM.9.14.r1-18400.02-LAHAINA.QSSI12.0
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|f0ee934ce0ceedaf3c429be7c644311e8343a6a8
 
 # CNE
 vendor/app/CACertService/CACertService.apk 
