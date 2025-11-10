@@ -5,9 +5,8 @@
     "target_path": "device/xiaomi/sm8250-common"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_xiaomi_lmi",
+    "repository": "TheDoctor12/proprietary_vendor_xiaomi_lmi",
     "target_path": "vendor/xiaomi/lmi",
-    "groups": "muppets,muppets_lmi",
     "clone-depth": "1"
   }
 ]
