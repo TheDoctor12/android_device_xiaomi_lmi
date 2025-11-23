@@ -20,12 +20,12 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import androidx.preference.Preference;
-import androidx.preference.PreferenceFragmentCompat;
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import co.aospa.popupcamera.R;
 
 public class PopupCameraSettingsFragment
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceChangeListener {
+        extends SettingsBasePreferenceFragment implements Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
