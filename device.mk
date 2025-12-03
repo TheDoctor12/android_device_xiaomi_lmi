@@ -42,8 +42,7 @@ $(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaom
 PRODUCT_PACKAGES += \
     ApertureOverlayDevice \
     FrameworkResOverlayDevice \
-    LineageSDKOverlayDevice \
-    LineageSystemUIOverlayDevice \
+    CustomSystemUIOverlayDevice \
     SystemUIOverlayDevice
 
 # Permissions
