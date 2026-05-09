@@ -14,7 +14,7 @@ from extract_utils.main import ExtractUtils, ExtractUtilsModule
 
 namespace_imports = [
     'hardware/xiaomi',
-    'vendor/qcom/common/vendor/adreno-r',
+    'vendor/qcom/common/vendor/adreno/r',
     'vendor/qcom/common/vendor/display',
     'vendor/qcom/common/vendor/display/4.19',
     'vendor/qcom/common/vendor/gps-legacy',
