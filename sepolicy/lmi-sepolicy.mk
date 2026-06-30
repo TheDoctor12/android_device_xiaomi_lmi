@@ -21,6 +21,9 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/lmi/sepolicy/private
 
 # QCOM Sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/xiaomi/lmi/sepolicy/private/qcom
+
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/lmi/sepolicy/vendor/qcom
 
