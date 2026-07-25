@@ -12,7 +12,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<manifest version="1.0" type="device">
+<manifest version="2.0" type="device">
     <!-- AudioHAL ext -->
     <hal format="hidl">
         <name>vendor.qti.hardware.audiohalext</name>
