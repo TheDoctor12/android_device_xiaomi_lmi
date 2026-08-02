@@ -1,0 +1,27 @@
+[
+  {
+    "remote": "github",
+    "repository": "TheDoctor12/android_device_xiaomi_sm8250-common",
+    "target_path": "device/xiaomi/sm8250-common"
+  },
+  {
+    "remote": "github",
+    "repository": "TheDoctor12/proprietary_vendor_xiaomi_sm8250-common",
+    "target_path": "vendor/xiaomi/sm8250-common"
+  },
+  {
+    "remote": "github",
+    "repository": "TheDoctor12/proprietary_vendor_xiaomi_lmi",
+    "target_path": "vendor/xiaomi/lmi"
+  },
+  {
+    "remote": "github",
+    "repository": "TheDoctor12/android_kernel_xiaomi_sm8250",
+    "target_path": "kernel/xiaomi/sm8250"
+  },
+  {
+    "remote": "github",
+    "repository": "TheDoctor12/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  }
+]
