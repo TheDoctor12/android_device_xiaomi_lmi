@@ -184,6 +184,12 @@ PRODUCT_ODM_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.dpmhalservice.enable=1
 
+# Dolby
+PRODUCT_PACKAGES += \
+    XiaomiDolby
+
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # DRM
 PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true
