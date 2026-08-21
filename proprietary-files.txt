@@ -1,6 +1,22 @@
 # All the unpinned blobs are from extracted from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
 # All the pinned blobs from MIUI are extracted from miui_LMIGlobal_V14.0.1.0.SJKMIXM_440715d694_12.0
 
+# ACDB - MIUI
+vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|4737c525129d849c02958c93eca75128dd7c6d2f
+vendor/etc/acdbdata/Forte/Forte_General_cal.acdb|d775ff45660722943a628fb5f234e3acdf98f45b
+vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb|332da831a3585cdf3b66bc3e525bfe53e3711f7c
+vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb|ce50c1f15099b39c2fdf2eadb1f16fda35741631
+vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb|2e08dc78525e42111daf1cd6a7789bb9cc6cfd63
+vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb|307b7e74eaf7e421d47b088c43aace9e990c1fd2
+vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|0b5fae990bd64510fe30d68c622a93c911053d45
+vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|bec8ff6fd080c92828a5fa56ef1ed855a508cb9c
+vendor/etc/acdbdata/adsp_avs_config.acdb|bd5453d6fd844ccc4a5160a4cbd7871dcd1aa655
+vendor/lib/libacdb-fts.so|f433dcd0ecd2bce239b31e1e3a8995acb96f3b5e
+vendor/lib/libacdbloader.so|2b8490869f1ef4e56e7f86d3e95a474bca7ff23b
+vendor/lib/libacdbrtac.so|27bde7dc2f546ae498d5f7956e21f2ce594c9d03
+vendor/lib/libadiertac.so|ab2fffee27bf0eea612521eaa1c963508c5f76bb
+vendor/lib/libaudcal.so|3fae51a9e47daa9eef52bf061cf00a282c5352ef
+
 # ADSPRPC
 vendor/bin/adsprpcd 
 vendor/bin/cdsprpcd 
@@ -73,81 +89,40 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin|bd7aa75d2f402e08f8d951f80d05c045e29
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin|bd7aa75d2f402e08f8d951f80d05c045e292a593
 vendor/lib/rfsa/adsp/misound_res.bin|5b3ac61a35a939a4e7769cbfa39cb85af2cfca85
 
+# Audio
+vendor/lib/libadm.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libdrc.so
+vendor/lib/libhdmipassthru.so
+vendor/lib/libqtigef.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libtinycompress.so
+
 # Audio (Configs) - MIUI
-vendor/etc/audio_configs.xml|eb74ffb11b3b5190bb8070f84de0798ed53ebc87
-vendor/etc/audio_configs_stock.xml|0bd072df25ff1641701bf9fa066bdfefd3b52565
-vendor/etc/audio_effects.conf|49e00ca08a1cc3688d2f88bbf67fae5a5ebeabb4
-vendor/etc/audio_platform_info.xml|cbbe1bc50e43aa18f67a726a773c9f32549da609
 vendor/etc/audio_platform_info_intcodec.xml|63607c76222da1956b11603547f26a50ce0443e8
-vendor/etc/audio_platform_info_qrd.xml|22fedc76c434063c1b905055b187a75c37ec7933
-vendor/etc/audio_policy_engine_product_strategies_mi.xml:vendor/etc/audio_policy_engine_product_strategies.xml|efced22194f14006cd26092655e868ec5c4d171c
-vendor/etc/audio_policy_engine_stream_volumes_mi.xml:vendor/etc/audio_policy_engine_stream_volumes.xml|369f1f41fbb954ef70b38bd459e94030c9f748a4
-vendor/etc/audio_policy_volumes.xml|474fa2c6fcb6ab770efb0d006a42c80acbd7a13a
-vendor/etc/audio_tuning_mixer.txt|e6bfc9499e2ac82acfda8cb932949f3035dc8f5a
-vendor/etc/mixer_paths.xml|dbbace1809b0a9e3e0e97a2e9f077101af756196
-vendor/etc/mixer_paths_overlay_dynamic.xml|dc1a3201101991fe076d7cb6e6dd5d25e256e412
-vendor/etc/mixer_paths_overlay_static.xml|ab3c9a55b8963ff9aa88a09886056ddd6ab71c14
 
-# Audio ACDBDATA - MIUI
-vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|4737c525129d849c02958c93eca75128dd7c6d2f
-vendor/etc/acdbdata/Forte/Forte_General_cal.acdb|d775ff45660722943a628fb5f234e3acdf98f45b
-vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb|332da831a3585cdf3b66bc3e525bfe53e3711f7c
-vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb|ce50c1f15099b39c2fdf2eadb1f16fda35741631
-vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb|2e08dc78525e42111daf1cd6a7789bb9cc6cfd63
-vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb|307b7e74eaf7e421d47b088c43aace9e990c1fd2
-vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|0b5fae990bd64510fe30d68c622a93c911053d45
-vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|bec8ff6fd080c92828a5fa56ef1ed855a508cb9c
-vendor/etc/acdbdata/adsp_avs_config.acdb|bd5453d6fd844ccc4a5160a4cbd7871dcd1aa655
+# Audio (Firmware) - MIUI
+vendor/firmware/tfa98xx.cnt|bf6e8790f697c893604e47f1b68aa217d8b584c3
 
-# Audio - MIUI
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.lmi.so;FIX_SONAME|81aa3604ded640479feb5d0365904bf8dcbdbe32
+# Audio (FX)
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib/soundfx/libshoebox.so
+
+# Audio (ST) - MIUI
+vendor/etc/sound_trigger_mixer_paths.xml|1bdb3ce33ede73fe6069cda7f30e7dff6cc8a179
+vendor/etc/sound_trigger_platform_info.xml|bbe7996f532baf7cf11e3cd88f0f7451f9b84827
 vendor/lib/hw/sound_trigger.primary.kona.so|a92730e808e5cca4ed289aaff8d2adf0cc2e7906
-vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|ee89b7cb4e0476688ac8c1a669dfe89c660b1a76
 vendor/lib/vndk/libxlog.so|dad5169deb3296ca1ff4d7e9546e4229cda277b9
-vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_lmi.so;FIX_SONAME|348735e899577308a9f0430611a068143d1efc0b
-vendor/lib/libacdb-fts.so|f433dcd0ecd2bce239b31e1e3a8995acb96f3b5e
-vendor/lib/libacdbloader.so|2b8490869f1ef4e56e7f86d3e95a474bca7ff23b
-vendor/lib/libacdbrtac.so|27bde7dc2f546ae498d5f7956e21f2ce594c9d03
-vendor/lib/libadiertac.so|ab2fffee27bf0eea612521eaa1c963508c5f76bb
-vendor/lib/libadm.so|1954acdfa454e83054bb7d7656b8f276287f8a22
-vendor/lib/libadpcmdec.so|297d8fecff85b6dc67ff19e788bcf3f1286014a0
-vendor/lib/libaudcal.so|3fae51a9e47daa9eef52bf061cf00a282c5352ef
-vendor/lib/libaudio_log_utils.so|da677ff82cbec353a2851a7556a2fa37992d6e2c
-vendor/lib/libaudioalsa.so|486cde43c2d135e0cceb862126b56ef0647d3a71
-vendor/lib/libaudioconfigstore.so|1b53f032ae43dd335ada7755642cb62864890165
-vendor/lib/libaudioparsers.so|7569d3f969fe586145970f30c90d395074f577e4
-vendor/lib/libaudioroute_ext.so|8dd1d9457c70718aad57f2374c538207b67e75eb
-vendor/lib/libcapiv2svacnn.so|c897fbba664fcb0ea1951d3220d8db54ae0d7995
-vendor/lib/libcapiv2svarnn.so|97f6bd6b25479fbf0f4f7cb06d9f1a462266f22a
-vendor/lib/libcapiv2vop.so|1cceaefcc1ca55de5bc932a846091e6702c5d508
-vendor/lib/libdrc.so|b066f176f119847059c5aa148f73e1b042fbeab3
 vendor/lib/libgcs-calwrapper.so|925a326fbf99b8e7ccd30734ac2577310068ba90
 vendor/lib/libgcs-ipc.so|1a35525c637406ad53e5c1f52dbceefa0bb82b0b
 vendor/lib/libgcs-osal.so|9f023437197fd01fdadd61844ba0bff88dc8d6a4
 vendor/lib/libgcs.so|c2e9aeac3d2b0e6b1c474ab946bd70cf4e4a9bf1
-vendor/lib/libhdmipassthru.so|96a804fdf58f66be46a71e29afd7e792e5d23d9e
 vendor/lib/liblistensoundmodel2.so|5f5c4e2d6b7e4184f863e7e433511b7af781fd0c
 vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
-vendor/lib/libqtigef.so|3fba1e7a22a0b75be6bace643aaa8ead110c1233
-vendor/lib/libresampler.so|8edd3e46d46ad53469487f172219aec3a5a840b5
 vendor/lib/libsmwrapper.so|71a8166b84c4c9a06f1308370d23e68a1b243e0e
-vendor/lib/libssrec.so:vendor/lib/libssrec_lmi.so;FIX_SONAME|c379b9f3440037b54f67fac5eaa4604021c03d8d
-vendor/lib/libstagefright_soft_qtiflacdec.so|91f8eca9057bfbf0c47c4ea1710cd34347d9bf22
-vendor/lib/libsurround_3mic_proc.so|e8e086123e0c1dc17f008f97edb3611cd4c702e1
-vendor/lib/libtinycompress.so|b53a73f53c1c5b189c55f4f5f37ecd40dc47b36d
-vendor/lib/vendor.qti.hardware.audiohalext@1.0.so|ed13a1c435bbc1320ceedeafab62db39fec2e34d
-vendor/lib/vendor.qti.voiceprint@1.0.so|5325739853aef4d9b7a752cec9e607e4f7e86ebf
-
-# Audio firmware - MIUI
-vendor/firmware/tfa98xx.cnt|bf6e8790f697c893604e47f1b68aa217d8b584c3
-
-# Audio FX - MIUI
-vendor/lib/soundfx/libasphere.so|b2daeb875914a33575c7d7a67429f25d09d35489
-vendor/lib/soundfx/libmisoundfx.so|01c0e0af9738a3188da1a6fed22553322f84447e
-vendor/lib/soundfx/libqcbassboost.so|00c29b4e50e67c5de4ad22e0284c500080b4c116
-vendor/lib/soundfx/libqcreverb.so|e90d723c6599b68d69109650e017d85f1ea9a582
-vendor/lib/soundfx/libqcvirt.so|942ce731900b949a262f00a0702af899c3ecc82b
-vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti 
@@ -268,9 +243,6 @@ vendor/lib64/libcamera_dirty.so|4aa4bbb7014ec1d61757ed53668c7c10f7f8224a
 vendor/lib64/libcamera_nn_stub.so|020a6cd6cee8e550f87cf39c1496979139a31961
 vendor/lib64/libcamera_scene.so|2098921c6d614d1ee609f54a81fc171fbf8999cc
 vendor/lib64/libcamerapostproc.so|32e22f87c9c81c970d0dc13fee6bef45c554caa0
-vendor/lib64/libcapiv2svacnn.so|a3da74de6eba39d25f64db653b00fb14508a43e7
-vendor/lib64/libcapiv2svarnn.so|bb820880a0b282cdbaf5d81c6e357bed732058b3
-vendor/lib64/libcapiv2vop.so|60adcab046df41f115f0b178ca4130ab09c190cf
 vendor/lib64/libcdsprpc_system.so|ead8129ef64c31af1d4bab1595fcadf36d4473ea
 vendor/lib64/libchilog.so|955d9c62f3b024f2a9f8d868f69fd11cef50c755
 vendor/lib64/libcom.qti.chinodeutils.so|184cf1bf64a50f0aaa80356702cb0c77282e9562

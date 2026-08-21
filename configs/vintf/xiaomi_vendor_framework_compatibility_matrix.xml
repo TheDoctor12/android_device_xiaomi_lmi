@@ -106,14 +106,6 @@
             <instance>gnss_vendor</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.qti.hardware.audiohalext</name>
-        <version>1.0</version>
-        <interface>
-            <name>IAudioHalExt</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <hal format="hidl">
         <name>vendor.xiaomi.hardware.motor</name>
         <transport>hwbinder</transport>
