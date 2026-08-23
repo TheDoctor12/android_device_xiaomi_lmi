@@ -289,6 +289,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 endif
 
 # Media
+PRODUCT_ODM_PROPERTIES += \
+    vendor.mm.enable.qcom_parser=16760831
+
 PRODUCT_VENDOR_PROPERTIES += \
     debug.stagefright.c2inputsurface=-1 \
     ro.odm.build.media_performance_class=30 \
